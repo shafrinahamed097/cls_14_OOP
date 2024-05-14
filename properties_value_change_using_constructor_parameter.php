@@ -10,7 +10,7 @@ class car{
     public $carColor = "red";
 }
 
+// declare object
 $newCar = new car("green");
 echo $newCar->carColor;
 
-// declare object

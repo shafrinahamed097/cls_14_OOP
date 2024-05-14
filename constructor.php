@@ -10,6 +10,7 @@ class car{
     1. He can take parameter
     2. He execute automatically
     3. He can not return anything
+    4. Fast Executed Method
 
     */
     public function __construct(){
