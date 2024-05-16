@@ -11,9 +11,11 @@ class MyGadgets{
         echo "I'm HandWash";
 
     }
-
+    
+    public static $myDSLRCameraName="Canon200D";
     public static function DSLR(){
-        echo "I'm DSLR";
+        echo "I'm DSLR" ."\n";
+        echo self::$myDSLRCameraName;
 
     }
 
@@ -26,6 +28,7 @@ class MyGadgets{
 
 MyGadgets::DSLR();
 // Output: I'm DSLR
+// Canon200D
 
 /*
 The Static keyword is used to create methods that will exits independently of any
