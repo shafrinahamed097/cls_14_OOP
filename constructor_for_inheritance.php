@@ -12,6 +12,7 @@ class Son extends Father{
 }
 
 $SobObj = new Son();
+// Output: This is Father Constructor
 
 class Son1 extends Father{
 
@@ -20,6 +21,7 @@ class Son1 extends Father{
     }
 }
 
-$SobObj1 = new Son1();
+$SobObj1 = new Son1(); 
+// Output: This is Son1 Constructor
 
 
