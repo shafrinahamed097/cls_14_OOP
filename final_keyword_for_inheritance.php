@@ -11,6 +11,8 @@ final class Father{
 
 class Son extends Father{
 
+    
+
 }
 
 $ObjSon = new Son();
