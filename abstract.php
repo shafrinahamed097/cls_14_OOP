@@ -19,3 +19,13 @@ class Son extends Father{
 
 $ObjFather = new Father();
 $ObjFather->print100();
+
+/*
+
+Abstract classes and methods are when the parent class has a named method,
+but need its child class(es) to fill out the tasks. An abstract class is a 
+class that contains abstract method is method that is declared, but not implemented
+in the code.
+
+
+*/
